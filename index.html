@@ -12,6 +12,18 @@
                 box-sizing: border-box;
             }
 
+            :root {
+                --fg-color: #313638;
+                --bg-color: #E8E9EB;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --bg-color: #313638;
+                    --fg-color: #E8E9EB;
+                }
+            }
+
             html {
                 height: 100%;
             }
@@ -24,8 +36,8 @@
                 padding: 16px;
                 font-size: 16px;
                 line-height: 24px;
-                background: #E8E9EB;
-                color: #313638;
+                background: var(--bg-color);
+                color: var(--fg-color);
             }
 
             section {
@@ -55,13 +67,6 @@
                 h1 {
                     font-size: 16px;
                     line-height: 24px;
-                }
-            }
-
-            @media (prefers-color-scheme: dark) {
-                body {
-                    background: #313638;
-                    color: #E8E9EB;
                 }
             }
         </style>
@@ -95,11 +100,11 @@
                 <p>I used to host a radio show called the Free Jazz Hour on KRTU San Antonio.
             </div>
 
-            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px dotted #313638;">
+            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px dotted var(--fg-color);">
                 <p>If you're curious about the name “shifting edges,” <a href="shifting-edges.html">I wrote about it here</a>.
             <div>
 
-            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px dotted #313638;">
+            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px dotted var(--fg-color);">
                 <p>I’ve also started working on a <a href="collage/contain-life.html">hypertext collage</a>.
             <div>
         </section>
