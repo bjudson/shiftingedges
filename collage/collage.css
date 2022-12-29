@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --fg-color: #313638;
+    --bg-color: #E8E9EB;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #313638;
+        --fg-color: #E8E9EB;
+    }
+}
+
 html {
     height: 100%;
 }
@@ -16,8 +28,8 @@ body {
     padding: 0 16px 16px;
     font-size: 16px;
     line-height: 24px;
-    background: #E8E9EB;
-    color: #313638;
+    background: var(--bg-color);
+    color: var(--fg-color);
 }
 
 section {
@@ -39,8 +51,8 @@ section figcaption {
 }
 
 section aside {
-    background: #313638;
-    color: #E8E9EB;
+    background: var(--fg-color);
+    color: var(--bg-color);
     padding: 1rem;
     border-radius: 3px;
     margin-bottom: 2rem;
@@ -72,6 +84,17 @@ p {
 
 a {
     color: #FE5F55;
+}
+
+nav {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+nav a {
+    border: 1px dotted var(--fg-color);
+    padding: 0.25rem 0.5rem;
+    text-decoration: none;
 }
 
 @media only screen and (max-width : 768px) {
