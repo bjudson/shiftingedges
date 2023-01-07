@@ -44,8 +44,11 @@ h2 {
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+    padding-left: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
 }
 
 p {
