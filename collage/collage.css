@@ -16,14 +16,9 @@
     }
 }
 
-html {
-    height: 100%;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
     padding: 0 16px 16px;
     font-size: 16px;
@@ -105,12 +100,14 @@ section aside h2 {
 }
 
 @media only screen and (max-width : 768px) {
-    body {
-        height: 100%;
-        display: block;
-    }
     h1 {
         font-size: 16px;
         line-height: 24px;
+    }
+    section {
+        margin-bottom: 3rem;
+    }
+    nav {
+        margin-top: 3rem;
     }
 }
