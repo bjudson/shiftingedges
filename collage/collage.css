@@ -54,6 +54,16 @@ a {
     color: #FE5F55;
 }
 
+a img:hover {
+    transform: scale(102%);
+    transition: transform 0.5s ease-in;
+}
+
+a img {
+    transform: scale(100%);
+    transition: transform 0.5s ease-in;
+}
+
 nav {
     margin-top: 2rem;
     text-align: center;
