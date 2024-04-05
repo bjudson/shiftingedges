@@ -1,2 +1,4 @@
-deploy.sh
+node_modules
+build
+.svelte-kit
 .DS_Store

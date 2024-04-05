@@ -1,0 +1,41 @@
+<script>
+	import { page } from '$app/stores';
+
+	import BottomNav from './BottomNav.svelte';
+	import TopNav from './TopNav.svelte';
+
+	const pages = [
+		'may-hide-another',
+		'contain-life',
+		'content-warning',
+		'into-the-rubble',
+		'concepts-of-time',
+		'the-story-or-the-truth',
+		'home-and-trap',
+		'so-desparately-sought',
+		'seabirds-cry',
+		'uncertain-longing',
+		'an-old-worn-ring',
+		'power-of-fire',
+		'cloud-dump',
+		'scenes-of-learning',
+		'peace-like-a-river',
+		'contradictory-combinations',
+		'systems-disintegrate',
+		'nothing-much'
+	];
+
+	$: currentPage = $page.url.pathname.split('/').pop() || '';
+</script>
+
+<svelte:head>
+	<link rel="stylesheet" href="/collage.css" />
+</svelte:head>
+
+{#if pages.includes(currentPage)}
+	<TopNav {pages} {currentPage} />
+{/if}
+
+<slot />
+
+<BottomNav {pages} {currentPage} />
