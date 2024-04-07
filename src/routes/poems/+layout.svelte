@@ -6,7 +6,7 @@
   <title>waves without sea: poems</title>
   <meta property="og:title" content="waves without sea" />
   <meta property="og:description" content="a collection of hypertext poems" />
-  <link rel="icon" type="image/png" href="favicon.png?v=1" />
+  <link rel="icon" type="image/png" href="/favicon.png?v=1" />
 </svelte:head>
 
 <div class="poem-container">
