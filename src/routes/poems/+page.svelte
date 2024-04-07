@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import { goto } from "$app/navigation";
 
   const poems = [
     "a-bird-was-given-the-heart",
@@ -17,6 +18,7 @@
   ];
 
   onMount(() => {
-    window.location.href = `poems/${poems[Math.floor(Math.random() * poems.length)]}`;
+    const poem = poems[Math.floor(Math.random() * poems.length)];
+    goto(`/poems/${poem}`, { replaceState: true });
   });
 </script>
