@@ -1,35 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
-
-* {
-    box-sizing: border-box;
-}
-
-:root {
-    --fg-color: #313638;
-    --bg-color: #E8E9EB;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color: #313638;
-        --fg-color: #E8E9EB;
-    }
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 16px 16px;
-    font-size: 16px;
-    line-height: 24px;
-    background: var(--bg-color);
-    color: var(--fg-color);
+    padding: 16px;
 }
 
 h1 {
-    font-family: 'Roboto Mono', sans-serif;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
     font-size: 24px;
     line-height: 36px;
     margin: 0 0 24px 0;
@@ -125,11 +105,5 @@ section aside h2 {
     h1 {
         font-size: 16px;
         line-height: 24px;
-    }
-    section {
-        margin-bottom: 3rem;
-    }
-    nav {
-        margin-top: 3rem;
     }
 }

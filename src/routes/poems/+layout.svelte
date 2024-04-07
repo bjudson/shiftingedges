@@ -2,26 +2,35 @@
   import { linksClicked } from "./stores";
 </script>
 
-<slot />
+<svelte:head>
+  <title>waves without sea: poems</title>
+  <meta property="og:title" content="waves without sea" />
+  <meta property="og:description" content="a collection of hypertext poems" />
+  <link rel="icon" type="image/png" href="favicon.png?v=1" />
+</svelte:head>
 
-<section class="footer">
-  <header>
-    <h1>waves without sea</h1>
-  </header>
+<div class="poem-container">
+  <slot />
 
-  {#if $linksClicked.length > 0}
-    <div class="footsteps">
-      <h2>footsteps</h2>
-      {#each $linksClicked as { href, text }, i}
-        <a {href}>{text || "missing text"}</a><br />
-      {/each}
-    </div>
-  {/if}
+  <section class="footer">
+    <header>
+      <h1>waves without sea</h1>
+    </header>
 
-  <p class="author">
-    by <a href="/">Ben Judson</a>
-  </p>
-</section>
+    {#if $linksClicked.length > 0}
+      <div class="footsteps">
+        <h2>footsteps</h2>
+        {#each $linksClicked as { href, text }, i}
+          <a {href}>{text || "missing text"}</a><br />
+        {/each}
+      </div>
+    {/if}
+
+    <p class="author">
+      by <a href="/">Ben Judson</a>
+    </p>
+  </section>
+</div>
 
 <style>
   @font-face {
@@ -36,6 +45,16 @@
     src: url("/Alegreya-Bold.otf");
     font-weight: bold;
     font-style: normal;
+  }
+
+  .poem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    @media (max-width: 768px) {
+      padding: 0;
+    }
   }
 
   section.footer {
@@ -100,16 +119,6 @@
         outline: none;
         background-color: rgb(99, 116, 121);
       }
-    }
-  }
-
-  :global(body) {
-    flex-direction: column;
-    align-items: center;
-
-    @media (max-width: 768px) {
-      padding: 0 !important;
-      margin: 0 !important;
     }
   }
 </style>
