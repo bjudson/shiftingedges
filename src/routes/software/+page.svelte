@@ -15,7 +15,7 @@
 
 <PageContainer>
   <section>
-    <h1>&lbrace;"shifting_edges": "ben judson"&rbrace;</h1>
+    <h1>Ben Judson # principal software engineer</h1>
 
     <div id="work">
       <p>
@@ -23,31 +23,79 @@
         software that supports healthy engagement with creative culture.
       </p>
       <p>
-        For the past few years, I’ve been working to create excitement about
-        literature with <a href="https://literati.com/">Literati</a>, and am
-        currently leading development of an internal service that informs
-        intelligent curation of books.
+        I have spent most of <a href="https://www.linkedin.com/in/ben-judson/"
+          >my career</a
+        > working on web applications using Django and React. I’m comfortable leading
+        large projects, mentoring, designing systems, communicating with stakeholders,
+        as well as writing Python, JavaScript/TypeScript, raw SQL, CSS, Bash scripts,
+        combing through observability tools and logs, and the many other random skills
+        that keep a web service humming along.
+      </p>
+      <h2>Projects</h2>
+      <p>
+        Summaries of some key projects that demonstrate the range of my skill
+        set:
       </p>
       <p>
-        Before joining Literati, I built <a href="https://www.lingoapp.com/"
-          >Lingo’s web app</a
-        >
-        for
-        <a href="https://thenounproject.com/">Noun Project</a>. Lingo is a tool
-        used by design teams at LinkedIn, SalesForce, Workday, Headspace and
-        many others to manage and distribute their design systems. Before we
-        launched Lingo, I worked on Noun Project’s
-        <a href="https://thenounproject.com/search/?q=origami"
-          >international, crowdsourced icon marketplace</a
-        >, which (at the time) was used by more than a million designers every
-        month.
+        <strong>Alexandria:</strong> At
+        <a href="https://literati.com/">Literati</a>, I built an internal
+        service to collect and manage metadata for the entire book inventory
+        (~6,000 titles). This service pulled data from internal and external
+        sources (consuming internal data from Google Pub/sub, and external data
+        primarily from Ingram's XML book API), aggregated it, flagged missing
+        data and anomalies, fed it to internal ML services for automated
+        curation, and included a faceted search interface. It was used by about
+        40 internal stakeholders in curation, product, marketing, operations,
+        and data science. I designed and built this service from the ground up
+        using Django, React, GraphQL, and Google Pub/sub, wrote documentation
+        for internal stakeholders, and on-boarded other engineers to maintain
+        and extend the service.
       </p>
       <p>
-        I cut my teeth as an independent contractor building content management
-        systems for artist portfolios in San Antonio. This led to contracts as
-        the sole engineer building the primary web sites for Blue Star
-        Contemporary Art Museum, Trinity University Press, and David Shelton
-        Gallery. A couple of these sites were in production for over a decade.
+        <strong>Book tag taxonomy:</strong> As Alexandria grew to maturity, conversations
+        with stakeholders led me to realize that the schema-less tagging system we
+        developed for machine learning-based book curation was not well suited to
+        other uses. I gathered stakeholders from product, design, curation, data
+        science, and marketing teams to develop a new taxonomy for book tags. I led
+        the development of a new tagging system that was more structured, more flexible,
+        and more user-friendly. I built tools into Alexandria to remove useless tags,
+        merge duplicates, and analyse the distribution of tags across the inventory.
+        I worked with the data science team to ensure that the new schema would perform
+        well with the models, and with curation to ensure that the new schema would
+        be meaninful and useful for customers.
+      </p>
+      <p>
+        <strong>Literati book clubs:</strong> I build the web client UI for
+        Literati’s
+        <a href="https://literati.com/book-clubs/susan-orlean/"
+          >online book clubs</a
+        >, collaborating closely with one front-end engineer, and a UX designer.
+        This app included threaded discussion forums, notifications, account
+        management, and reading stats. We used TypeScript, React, and GraphQL.
+      </p>
+      <p>
+        <strong>Lingo API:</strong> At
+        <a href="https://www.lingoapp.com/">Lingo</a>, I re-architected the API
+        to reduce latency and increase reliability. This is a RESTful API built
+        using Flask and SQLAlchemy that serves web and native iOS clients. I
+        collaborated closely with an iOS engineer on this project, and helped
+        him ramp up his Python and SQL skills as part of the process. The design
+        of this API is discussed in some detail in
+        <a
+          href="https://medium.com/@shiftingedges/implementing-a-command-bus-in-python-18b60bbe216"
+          >this Medium post</a
+        >.
+      </p>
+      <p>
+        <strong>wabiStory:</strong> This was a solo passion project I worked on while
+        freelancing in 2013. I created a mobile app using Sencha Touch and PhoneGap
+        (aka Apache Cordova) that allowed artists to place audio recordings in physical
+        locations. Users would only be able to hear the audio if they were physically
+        present at the location. The mobile app allowed creating the recordings and
+        saving them at a location, and also UI for discovering and listening to recordings,
+        with a walking directions feature (using Google Maps API). This app was released
+        in the Apple Store and was used by a small community of artists in San Antonio,
+        TX.
       </p>
     </div>
   </section>
