@@ -76,7 +76,6 @@
   }
 
   h1 {
-    font-family: "Roboto Mono", sans-serif;
     font-size: 24px;
     line-height: 36px;
     margin: 0 0 24px 0;
