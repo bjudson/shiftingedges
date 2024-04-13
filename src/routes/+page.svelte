@@ -21,7 +21,7 @@
       Are you here to <a href="/software">hire me</a> to write software, see my
       <a href="/collage">hypertext collage</a>, read my old
       <a href="/poems">poems</a>, or learn why I use
-      <a href="/shifting-edges">the name "shifting edges"</a>?
+      <a href="/shifting-edges">the name “shifting edges”</a>?
     </p>
 
     <p>
