@@ -18,10 +18,10 @@
     <h1>Hi, my name is Ben</h1>
 
     <p>
-      Are you here to <a href="/software">hire me to write software</a>,
-      <a href="/collage">see my hypertext collage</a>,
-      <a href="/poems">read my old poems</a>,
-      <a href="/shifting-edges">learn why I use the name "shifting edges"</a>?
+      Are you here to <a href="/software">hire me</a> to write software, see my
+      <a href="/collage">hypertext collage</a>, read my old
+      <a href="/poems">poems</a>, or learn why I use
+      <a href="/shifting-edges">the name "shifting edges"</a>?
     </p>
 
     <p>
