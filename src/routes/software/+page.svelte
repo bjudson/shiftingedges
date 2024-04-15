@@ -25,11 +25,11 @@
       <p>
         I have spent most of <a href="https://www.linkedin.com/in/ben-judson/"
           >my career</a
-        > working on web applications using Django and React. I’m comfortable leading
-        large projects, mentoring, designing systems, communicating with stakeholders,
+        > building web applications using Django and React. I’m comfortable leading
+        large projects, designing systems, mentoring, communicating with stakeholders,
         as well as writing Python, JavaScript/TypeScript, raw SQL, CSS, Bash scripts,
-        combing through observability tools and logs, and the many other random skills
-        that keep a web service humming along.
+        combing through observability tools and logs, and many other random skills
+        that keep a product humming along.
       </p>
       <h2>Projects</h2>
       <p>
@@ -40,16 +40,16 @@
         <strong>Alexandria:</strong> At
         <a href="https://literati.com/">Literati</a>, I built an internal
         service to collect and manage metadata for the entire book inventory
-        (~6,000 titles). This service pulled data from internal and external
+        (~6,000 titles). This service aggregated data from internal and external
         sources (consuming internal data from Google Pub/sub, and external data
-        primarily from Ingram's XML book API), aggregated it, flagged missing
-        data and anomalies, fed it to internal ML services for automated
-        curation, and included a faceted search interface. It was used by about
-        40 internal stakeholders in curation, product, marketing, operations,
-        and data science. I designed and built this service from the ground up
-        using Django, React, GraphQL, and Google Pub/sub, wrote documentation
-        for internal stakeholders, and on-boarded other engineers to maintain
-        and extend the service.
+        primarily from Ingram's XML book API), flagged missing data and
+        anomalies, fed it to internal ML services for automated curation, and
+        included a faceted search interface. It was used by about 40 internal
+        stakeholders in curation, product, marketing, operations, and data
+        science. I designed and built this service from the ground up using
+        Django, React, GraphQL, and Google Pub/sub, wrote documentation for
+        internal stakeholders, and on-boarded other engineers to maintain and
+        extend the service.
       </p>
       <p>
         <strong>Book tag taxonomy:</strong> As Alexandria grew to maturity, conversations
@@ -59,10 +59,10 @@
         science, and marketing teams to develop a new taxonomy for book tags. I led
         the development of a new tagging system that was more structured, more flexible,
         and more user-friendly. I built tools into Alexandria to remove useless tags,
-        merge duplicates, and analyse the distribution of tags across the inventory.
+        merge duplicates, and analyze the distribution of tags across the inventory.
         I worked with the data science team to ensure that the new schema would perform
         well with the models, and with curation to ensure that the new schema would
-        be meaninful and useful for customers.
+        be meaningful and useful for customers.
       </p>
       <p>
         <strong>Literati book clubs:</strong> I build the web client UI for
