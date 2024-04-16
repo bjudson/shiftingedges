@@ -9,3 +9,14 @@
 <CollageMeta {title} {description} />
 
 <h1>hypertext collage</h1>
+
+<style>
+  h1 {
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 0 24px 0;
+  }
+</style>

@@ -1,41 +1,54 @@
 <script>
-	import { page } from '$app/stores';
+  import { page } from "$app/stores";
 
-	import BottomNav from './BottomNav.svelte';
-	import TopNav from './TopNav.svelte';
+  import BottomNav from "./BottomNav.svelte";
+  import TopNav from "./TopNav.svelte";
 
-	const pages = [
-		'may-hide-another',
-		'contain-life',
-		'content-warning',
-		'into-the-rubble',
-		'concepts-of-time',
-		'the-story-or-the-truth',
-		'home-and-trap',
-		'so-desparately-sought',
-		'seabirds-cry',
-		'uncertain-longing',
-		'an-old-worn-ring',
-		'power-of-fire',
-		'cloud-dump',
-		'scenes-of-learning',
-		'peace-like-a-river',
-		'contradictory-combinations',
-		'systems-disintegrate',
-		'nothing-much'
-	];
+  const pages = [
+    "may-hide-another",
+    "contain-life",
+    "content-warning",
+    "into-the-rubble",
+    "concepts-of-time",
+    "the-story-or-the-truth",
+    "home-and-trap",
+    "so-desparately-sought",
+    "seabirds-cry",
+    "uncertain-longing",
+    "an-old-worn-ring",
+    "power-of-fire",
+    "cloud-dump",
+    "scenes-of-learning",
+    "peace-like-a-river",
+    "contradictory-combinations",
+    "systems-disintegrate",
+    "nothing-much",
+  ];
 
-	$: currentPage = $page.url.pathname.split('/').pop() || '';
+  $: currentPage = $page.url.pathname.split("/").pop() || "";
 </script>
 
 <svelte:head>
-	<link rel="stylesheet" href="/collage.css" />
+  <link rel="stylesheet" href="/collage.css" />
 </svelte:head>
 
-{#if pages.includes(currentPage)}
-	<TopNav {pages} {currentPage} />
-{/if}
+<div>
+  {#if pages.includes(currentPage)}
+    <TopNav {pages} {currentPage} />
+  {/if}
 
-<slot />
+  <slot />
 
-<BottomNav {pages} {currentPage} />
+  <BottomNav {pages} {currentPage} />
+</div>
+
+<style>
+  div {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+</style>
