@@ -16,6 +16,15 @@
 
     <ul>
       <li>
+        <a href="https://melconway.com/research/committees.html"
+          >How do committees invent?</a
+        >: The basic thesis of this article is that organizations which design
+        systems (in the broad sense used here) are constrained to produce
+        designs which are copies of the communication structures of these
+        organizations.
+      </li>
+
+      <li>
         <a href="https://how.complexsystems.fail/">How complex systems fail</a>:
         Being a Short Treatise on the Nature of Failure; How Failure is
         Evaluated; How Failure is Attributed to Proximate Cause; and the
@@ -32,12 +41,9 @@
       </li>
 
       <li>
-        <a href="https://melconway.com/research/committees.html"
-          >How do committees invent?</a
-        >: The basic thesis of this article is that organizations which design
-        systems (in the broad sense used here) are constrained to produce
-        designs which are copies of the communication structures of these
-        organizations.
+        <a href="https://anthology.rhizome.org/">Net Art Anthology:</a> Net Art Anthology
+        aims to address the shortage of historical perspectives on a field in which
+        even the most prominent artworks are often inaccessible.
       </li>
 
       <li>
@@ -46,6 +52,18 @@
         downloadable avant-garde artifacts. By the letter of the law, the site
         is questionable; we openly violate copyright norms and almost never ask
         for permission.
+      </li>
+
+      <li>
+        <a href="https://youtu.be/8LbePBiOvZ4"
+          >A Few Observations on the Marvelous Resilience of Bone & Resilience
+          Engineering</a
+        >: The possibility of deliberately exploiting or enhancing resilience is
+        tantalizing. But what exactly is resilience engineering? There are at
+        least two possible forms: first, engineering that exploits what we know
+        about resilient systems and, second, engineering that shapes resilience
+        itself. Bone is useful example of resilience and both types of
+        resilience engineering.
       </li>
 
       <li>
