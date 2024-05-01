@@ -41,6 +41,25 @@
       </li>
 
       <li>
+        <a href="https://martinfowler.com/architecture/"
+          >Software Architecture Guide</a
+        >: Like many in the software world, I’ve long been wary of the term
+        “architecture” as it often suggests a separation from programming and an
+        unhealthy dose of pomposity. But I resolve my concern by emphasizing
+        that good architecture is something that supports its own evolution, and
+        is deeply intertwined with programming.
+      </li>
+
+      <li>
+        <a href="https://publicdomainreview.org/">Public Domain Review</a>:
+        Dedicated to the exploration of curious and compelling works from the
+        history of art, literature, and ideas – focusing on works now fallen
+        into the public domain, the vast commons of out-of-copyright material
+        that everyone is free to enjoy, share, and build upon without
+        restrictions.
+      </li>
+
+      <li>
         <a href="https://anthology.rhizome.org/">Net Art Anthology:</a> Net Art Anthology
         aims to address the shortage of historical perspectives on a field in which
         even the most prominent artworks are often inaccessible.
