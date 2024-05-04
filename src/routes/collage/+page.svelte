@@ -19,4 +19,11 @@
     line-height: 36px;
     margin: 0 0 24px 0;
   }
+
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
 </style>

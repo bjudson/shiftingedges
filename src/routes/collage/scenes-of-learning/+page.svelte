@@ -1,5 +1,6 @@
 <script lang="ts">
   import CollageMeta from "../CollageMeta.svelte";
+  import Section from "../Section.svelte";
 
   import chineseBookie from "$lib/img/killing-of-chinese-bookie.jpg";
   import chocolateGrinder from "$lib/img/duchamp-chocolate-grinder.jpeg";
@@ -10,7 +11,7 @@
 
 <CollageMeta {title} {description} imgSrc={chineseBookie} />
 
-<section>
+<Section>
   <figure>
     <a href="https://youtu.be/RHFLJm7VXOw">
       <img
@@ -54,4 +55,4 @@
     </a>
     <figcaption>The Chocolate Grinder</figcaption>
   </figure>
-</section>
+</Section>

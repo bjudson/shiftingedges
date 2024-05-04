@@ -1,5 +1,6 @@
 <script lang="ts">
   import CollageMeta from "../CollageMeta.svelte";
+  import Section from "../Section.svelte";
 
   import ceramics from "$lib/img/Hamana-Otani-Ueda-ceramics.jpeg";
   import yojimboRiceBowl from "$lib/img/Yojimbo-rice-bowl.webp";
@@ -11,7 +12,7 @@
 
 <CollageMeta {title} {description} imgSrc={ceramics} />
 
-<section>
+<Section>
   <figure>
     <a
       href="https://www.blumandpoe.com/exhibitions/kazunori_hamana_yuji_ueda_otani_workshop"
@@ -88,4 +89,4 @@
       /></a
     >
   </figure>
-</section>
+</Section>

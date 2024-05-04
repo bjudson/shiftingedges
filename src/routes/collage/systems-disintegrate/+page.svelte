@@ -1,5 +1,6 @@
 <script lang="ts">
   import CollageMeta from "../CollageMeta.svelte";
+  import Section from "../Section.svelte";
 
   import theConversation from "$lib/img/the-conversation.jpg";
   import tinguelyHomage from "$lib/img/tinguely-homage.jpg";
@@ -10,7 +11,7 @@
 
 <CollageMeta {title} {description} imgSrc={theConversation} />
 
-<section>
+<Section>
   <figure>
     <a
       href="https://scrapsfromtheloft.com/movies/the-making-of-the-conversation-an-interview-with-francis-ford-coppola/"
@@ -75,4 +76,4 @@
     </a>
     <figcaption>Fragment from Homage to New York</figcaption>
   </figure>
-</section>
+</Section>

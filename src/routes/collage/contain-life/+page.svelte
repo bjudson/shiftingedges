@@ -1,5 +1,6 @@
 <script lang="ts">
   import CollageMeta from "../CollageMeta.svelte";
+  import Section from "../Section.svelte";
 
   import sSherbourneDr from "$lib/img/s-sherbourne-dr.jpg";
   import holzerFormica from "$lib/img/holzer_Formica_3085_yellow_3157.jpg";
@@ -10,7 +11,7 @@
 
 <CollageMeta {title} {description} imgSrc={sSherbourneDr} />
 
-<section>
+<Section>
   <figure>
     <a href="https://www.instagram.com/p/BPOc_JDA3rT/"
       ><img
@@ -65,4 +66,4 @@
     </a>
     <figcaption>Formica 3085 yellow white. 2007.</figcaption>
   </figure>
-</section>
+</Section>

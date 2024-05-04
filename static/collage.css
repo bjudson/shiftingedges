@@ -1,7 +1,3 @@
-h2 {
-    font-size: 18px;
-}
-
 ul {
     padding-left: 1rem;
 }
@@ -28,11 +24,6 @@ a img {
     transition: transform 0.5s ease-in;
 }
 
-section {
-    max-width: 600px;
-    margin-bottom: 2rem;
-}
-
 section img {
     max-width: 100%;
 }
@@ -56,15 +47,4 @@ section aside {
 
 section aside p:last-child {
     margin-bottom: 0;
-}
-
-section aside h2 {
-    margin-top: 0;
-}
-
-@media only screen and (max-width : 768px) {
-    h1 {
-        font-size: 16px;
-        line-height: 24px;
-    }
 }
