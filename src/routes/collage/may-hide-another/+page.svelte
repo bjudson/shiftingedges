@@ -14,12 +14,14 @@
 
 <Section>
   <figure>
-    <img
-      src={noDrugsAllowed}
-      alt="Photograph take inside a bar. On the wall a dry erase board with a drink menu 
+    <a href="https://www.instagram.com/p/BDZXfF_IODx/">
+      <img
+        src={noDrugsAllowed}
+        alt="Photograph take inside a bar. On the wall a dry erase board with a drink menu 
         offers beer, wine, shots, etc. Through the door, a cinder block wall painted blue is visible, with the hand-painted 
         words NO DRUGS ALLOWED."
-    />
+      />
+    </a>
   </figure>
 
   <p>
