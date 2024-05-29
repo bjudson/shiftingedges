@@ -1,5 +1,10 @@
 <script>
   import PageContainer from "./PageContainer.svelte";
+
+  import MastodonLogo from "./MastodonLogo.svelte";
+  import MediumLogo from "./MediumLogo.svelte";
+  import InstagramLogo from "./InstagramLogo.svelte";
+  import LinkedInLogo from "./LinkedInLogo.svelte";
 </script>
 
 <svelte:head>
@@ -15,24 +20,39 @@
 
 <PageContainer>
   <section>
-    <h1>Hi, my name is Ben</h1>
+    <h1>Hi, my name is Ben Judson</h1>
 
-    <p>
-      Are you here to <a href="/software">hire me</a> to write software, see my
-      <a href="/collage">hypertext collage</a>, read my old
-      <a href="/poems">poems</a>, see my <a href="/links">favorite links</a>, or
-      learn why I use
-      <a href="/shifting-edges">the name “shifting edges”</a>?
-    </p>
+    <p>On this site you can</p>
 
-    <p>
-      Or maybe you just want to follow me on <a
-        rel="me"
-        href="https://hachyderm.io/@shiftingedges">Mastodon</a
-      >, <a href="https://medium.com/@shiftingedges">Medium</a>,
-      <a href="https://www.instagram.com/shiftingedges/">Instagram</a>, or
-      <a href="https://www.linkedin.com/in/ben-judson/">LinkedIn</a>.
-    </p>
+    <ul>
+      <li>
+        learn about <a href="/software">my experience writing software</a>
+      </li>
+      <li>see my <a href="/collage">hypertext collage</a></li>
+      <li>
+        learn why I use
+        <a href="/shifting-edges">the name “shifting edges”</a>
+      </li>
+      <li>
+        explore
+        <a href="/links">my favorite links</a>
+      </li>
+    </ul>
+
+    <div class="social-logos">
+      <a rel="me" href="https://hachyderm.io/@shiftingedges"
+        ><MastodonLogo size="1.5rem" /></a
+      >
+      <a href="https://medium.com/@shiftingedges"
+        ><MediumLogo size="1.5rem" /></a
+      >
+      <a href="https://www.instagram.com/shiftingedges/"
+        ><InstagramLogo size="1.5rem" /></a
+      >
+      <a href="https://www.linkedin.com/in/ben-judson/"
+        ><LinkedInLogo size="1.5rem" /></a
+      >
+    </div>
   </section></PageContainer
 >
 
@@ -49,6 +69,27 @@
 
   a {
     color: #fe5f55;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  ul li:before {
+    content: "✴︎";
+    margin-right: 0.5rem;
+  }
+
+  .social-logos {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+  .social-logos a {
+    color: var(--fg-color);
   }
 
   @media only screen and (max-width: 768px) {
