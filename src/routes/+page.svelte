@@ -25,17 +25,17 @@
     <p>On this site you can</p>
 
     <ul>
-      <li>
-        learn about <a href="/software">my experience writing software</a>
-      </li>
       <li>see my <a href="/collage">hypertext collage</a></li>
-      <li>
-        learn why I use
-        <a href="/shifting-edges">the name “shifting edges”</a>
-      </li>
       <li>
         explore
         <a href="/links">my favorite links</a>
+      </li>
+      <li>
+        learn about <a href="/software">my experience writing software</a>
+      </li>
+      <li>
+        learn why I use
+        <a href="/shifting-edges">the name “shifting edges”</a>
       </li>
     </ul>
 
@@ -77,7 +77,7 @@
   }
 
   ul li:before {
-    content: "✴︎";
+    content: "✦";
     margin-right: 0.5rem;
   }
 
