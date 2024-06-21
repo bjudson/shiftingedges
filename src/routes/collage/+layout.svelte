@@ -33,7 +33,7 @@
   <link rel="stylesheet" href="/collage.css" />
 </svelte:head>
 
-<div>
+<main>
   {#if pages.includes(currentPage)}
     <TopNav {pages} {currentPage} />
   {/if}
@@ -41,10 +41,10 @@
   <slot />
 
   <BottomNav {pages} {currentPage} />
-</div>
+</main>
 
 <style>
-  div {
+  main {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
       Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     display: flex;

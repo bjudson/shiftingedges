@@ -11,7 +11,7 @@ p {
 }
 
 a {
-    color: #FE5F55;
+    color: var(--link-color);
 }
 
 a img:hover {
@@ -43,6 +43,10 @@ section aside {
     padding: 1rem;
     border-radius: 3px;
     margin-bottom: 2rem;
+}
+
+section aside a {
+    color: var(--link-color-alt);
 }
 
 section aside p:last-child {

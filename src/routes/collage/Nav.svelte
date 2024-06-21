@@ -4,15 +4,19 @@
 </script>
 
 <nav>
-  {#each visiblePages as page}
-    {#if page === currentPage}
-      <span>{page.replace(/-/g, " ")}</span>
-    {:else}
-      <a href="/collage/{page}">
-        {page.replace(/-/g, " ")}
-      </a>
-    {/if}
-  {/each}
+  <ul>
+    {#each visiblePages as page}
+      {#if page === currentPage}
+        <li><h1>{page.replace(/-/g, " ")}</h1></li>
+      {:else}
+        <li>
+          <a href="/collage/{page}">
+            {page.replace(/-/g, " ")}
+          </a>
+        </li>
+      {/if}
+    {/each}
+  </ul>
 </nav>
 
 <style>
@@ -21,21 +25,31 @@
     max-width: 600px;
   }
 
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
   nav a {
     display: inline-block;
     border: 1px dotted var(--fg-color);
     padding: 0.25rem 0.5rem;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
     text-decoration: none;
     white-space: nowrap;
-    color: #fe5f55;
+    color: var(--link-color);
   }
 
-  nav span {
+  nav h1 {
     display: inline-block;
+    font-size: 1rem;
+    margin: 0;
     padding: 0.25rem 0.5rem;
-    margin-right: 0.5rem;
-    color: #a5a5a5;
+    color: var(--fg-color);
   }
 </style>

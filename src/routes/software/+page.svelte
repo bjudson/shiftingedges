@@ -117,7 +117,7 @@
   }
 
   a {
-    color: #fe5f55;
+    color: var(--link-color);
   }
 
   @media only screen and (max-width: 768px) {

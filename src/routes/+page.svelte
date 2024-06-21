@@ -53,8 +53,8 @@
         ><LinkedInLogo size="1.5rem" /></a
       >
     </div>
-  </section></PageContainer
->
+  </section>
+</PageContainer>
 
 <style>
   section {
@@ -68,7 +68,7 @@
   }
 
   a {
-    color: #fe5f55;
+    color: var(--link-color);
   }
 
   ul {

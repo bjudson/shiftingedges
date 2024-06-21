@@ -1,9 +1,9 @@
-<div>
+<main>
   <slot />
-</div>
+</main>
 
 <style>
-  div {
+  main {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
       Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     display: flex;
