@@ -73,6 +73,8 @@
         for permission.
       </li>
 
+      <h2>Talks</h2>
+
       <li>
         <a href="https://youtu.be/8LbePBiOvZ4"
           >A Few Observations on the Marvelous Resilience of Bone & Resilience
@@ -93,6 +95,14 @@
         of abstraction levels, in an attempt to make sense of what is and might
         be happening.
       </li>
+
+      <li>
+        <a href="https://youtu.be/vrKTSg5gWN4"
+          >Promoting Civil Discourse with Software</a
+        >: Jeff Atwood compares the design of Stack Overflow to his new project,
+        Discourse, and discusses how designing to promote useful answers is
+        different from designing to promote civil discourse and empathy.
+      </li>
     </ul>
     <p>— <a href="/">Ben Judson</a></p>
   </section>
@@ -104,9 +114,15 @@
   }
 
   h1 {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
     margin: 0 0 1.5rem 0;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin: 1.5rem 0 1rem 0;
   }
 
   ul {
@@ -124,8 +140,13 @@
 
   @media only screen and (max-width: 768px) {
     h1 {
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+      line-height: 1.5rem;
     }
   }
 </style>
