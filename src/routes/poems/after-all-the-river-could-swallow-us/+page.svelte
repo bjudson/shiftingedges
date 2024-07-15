@@ -18,7 +18,9 @@
   > <br />
   from the froth and the spray of weight <br />
   <br />
-  after all the river is neither earth <br />
+  after all the <Link href="a-river-hides-the-earth"
+    >river is neither earth</Link
+  > <br />
   nor sky but their violent <br />
   <Link href="a-bird-was-given-the-heart">marriage at our feet</Link>
 </Poem>
