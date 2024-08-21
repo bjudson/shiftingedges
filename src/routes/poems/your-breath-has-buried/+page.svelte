@@ -8,7 +8,8 @@
   />
   words deep in the earth<br />
   <br />
-  they will rest there<br />
+  they will <Link href="fire-leaves-its-soul-where-it-steps">rest there</Link
+  ><br />
   until the earth falls<br />
   apart into <Link href="long-strands-of-light">countless waves</Link><br />
   <br />
