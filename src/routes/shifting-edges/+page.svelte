@@ -19,10 +19,12 @@
     </p>
     <p>
       Each poem was part of a network of imagery, the images almost like modules
-      that could find new meaning in a new context. One of these lines was
-      “shifting edges and shattered light” – originally referring to the waves
-      of the sea, which have a brief individual identity before falling back
-      into the whole, reflecting flashes of light in the process.
+      that could find new meaning in a new context. One of these lines was “<a
+        href="poems/a-river-hides-the-earth"
+        title="waves without sea">shifting edges and shattered light</a
+      >” – originally referring to the waves of the sea, which have a brief
+      individual identity before falling back into the whole, reflecting flashes
+      of light in the process.
     </p>
     <p>
       I imagined this kind of poem reflected the structure of thought; ideas
