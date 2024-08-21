@@ -38,15 +38,11 @@ section figcaption {
 }
 
 section aside {
-    background: var(--fg-color);
-    color: var(--bg-color);
+    background: var(--bg-color-alt);
     padding: 1rem;
     border-radius: 3px;
     margin-bottom: 2rem;
-}
-
-section aside a {
-    color: var(--link-color-alt);
+    border: 1px solid var(--border-color);
 }
 
 section aside p:last-child {
