@@ -24,9 +24,7 @@
   </figure>
 
   <p>
-    <a
-      href="https://www.google.com/books/edition/Song_of_Solomon/RxkWfF2s7EUC?hl=en&gbpv=1&pg=PA302&printsec=frontcover&dq=O%20Solomon%20don%E2%80%99t%20leave%20me"
-      >O Solomon don’t leave me here</a
+    <a href="https://spiny.com/naomi/thesis/">O Solomon don’t leave me here</a
     ><br />
     Cotton balls to choke me<br />
     O Solomon don’t leave me here<br />
