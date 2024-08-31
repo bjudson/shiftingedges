@@ -1,38 +1,7 @@
-# create-svelte
+# shiftingedges.com
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This is the repo for the <a href="https://shiftingedges.com">my personal website</a>. Right now, it is built using <a href="https://kit.svelte.dev/">SvelteKit</a>, and deployed using <a href="https://www.netlify.com/">Netlify</a>. Most of the site is basic professional info, links, the normal stuff.
 
-## Creating a project
+## hypertext collage
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+There is one section of the site that is more unique. The <a href="src/routes/collage">hypertext collage</a> conceptually combines snippets from poems, essays, stories, song lyrics, along with images of artworks and movie stills. Within the collage, there is no attribution or context, but everything links out to another site with more information about the original source. This is a space where I find connections between things I'm reading, watching, and thinking about. It's my <a href="https://maggieappleton.com/garden-history">digital garden</a>.
