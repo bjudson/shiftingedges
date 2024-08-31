@@ -16,6 +16,17 @@
 
     <ul>
       <li>
+        <a href="https://maggieappleton.com/garden-history"
+          >A Brief History & Ethos of the Digital Garden</a
+        >: A garden is a collection of evolving ideas that aren't strictly
+        organised by their publication date. They're inherently exploratory –
+        notes are linked through contextual associations. They aren't refined or
+        complete - notes are published as half-finished thoughts that will grow
+        and evolve over time. They're less rigid, less performative, and less
+        perfect than the personal websites we're used to seeing.
+      </li>
+
+      <li>
         <a href="https://melconway.com/research/committees.html"
           >How do committees invent?</a
         >: The basic thesis of this article is that organizations which design
@@ -48,6 +59,13 @@
         unhealthy dose of pomposity. But I resolve my concern by emphasizing
         that good architecture is something that supports its own evolution, and
         is deeply intertwined with programming.
+      </li>
+
+      <li>
+        <a href="https://cari.institute/aesthetics">Index of Aesthetics</a>:
+        CARI, or Consumer Aesthetics Research Institute, is an online community
+        dedicated to developing a visual lexicon of consumer ephemera from the
+        1970s until now.
       </li>
 
       <li>
