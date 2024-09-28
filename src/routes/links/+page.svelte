@@ -14,6 +14,49 @@
 
     <p>Some things that make the web great (a work in progress).</p>
 
+    <h2>Art</h2>
+
+    <ul>
+      <li>
+        <a href="https://citiesandmemory.com">Cities &amp; Memory</a>: Cities
+        and Memory is one of the world’s largest sound projects, with more than
+        1,800 artists foming a global community with the aim of remixing the
+        world, one sound at a time.
+      </li>
+
+      <li>
+        <a href="https://cari.institute/aesthetics">Index of Aesthetics</a>:
+        CARI, or Consumer Aesthetics Research Institute, is an online community
+        dedicated to developing a visual lexicon of consumer ephemera from the
+        1970s until now.
+      </li>
+
+      <li>
+        <a href="https://publicdomainreview.org/">Public Domain Review</a>:
+        Dedicated to the exploration of curious and compelling works from the
+        history of art, literature, and ideas – focusing on works now fallen
+        into the public domain, the vast commons of out-of-copyright material
+        that everyone is free to enjoy, share, and build upon without
+        restrictions.
+      </li>
+
+      <li>
+        <a href="https://anthology.rhizome.org/">Net Art Anthology:</a> Net Art Anthology
+        aims to address the shortage of historical perspectives on a field in which
+        even the most prominent artworks are often inaccessible.
+      </li>
+
+      <li>
+        <a href="https://ubu.com/">UbuWeb</a>: Founded in 1996, UbuWeb is a
+        pirate shadow library consisting of hundreds of thousands of freely
+        downloadable avant-garde artifacts. By the letter of the law, the site
+        is questionable; we openly violate copyright norms and almost never ask
+        for permission.
+      </li>
+    </ul>
+
+    <h2>Software</h2>
+
     <ul>
       <li>
         <a href="https://maggieappleton.com/garden-history"
@@ -59,36 +102,6 @@
         unhealthy dose of pomposity. But I resolve my concern by emphasizing
         that good architecture is something that supports its own evolution, and
         is deeply intertwined with programming.
-      </li>
-
-      <li>
-        <a href="https://cari.institute/aesthetics">Index of Aesthetics</a>:
-        CARI, or Consumer Aesthetics Research Institute, is an online community
-        dedicated to developing a visual lexicon of consumer ephemera from the
-        1970s until now.
-      </li>
-
-      <li>
-        <a href="https://publicdomainreview.org/">Public Domain Review</a>:
-        Dedicated to the exploration of curious and compelling works from the
-        history of art, literature, and ideas – focusing on works now fallen
-        into the public domain, the vast commons of out-of-copyright material
-        that everyone is free to enjoy, share, and build upon without
-        restrictions.
-      </li>
-
-      <li>
-        <a href="https://anthology.rhizome.org/">Net Art Anthology:</a> Net Art Anthology
-        aims to address the shortage of historical perspectives on a field in which
-        even the most prominent artworks are often inaccessible.
-      </li>
-
-      <li>
-        <a href="https://ubu.com/">UbuWeb</a>: Founded in 1996, UbuWeb is a
-        pirate shadow library consisting of hundreds of thousands of freely
-        downloadable avant-garde artifacts. By the letter of the law, the site
-        is questionable; we openly violate copyright norms and almost never ask
-        for permission.
       </li>
 
       <h2>Talks</h2>
