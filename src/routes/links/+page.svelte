@@ -70,6 +70,16 @@
       </li>
 
       <li>
+        <a href="https://www.cs.unc.edu/techreports/86-020.pdf"
+          >No Silver Bullet</a
+        >: Not only are there no silver bullets now in view, the very nature of
+        software makes it unlikely that there will be any - no inventions that
+        will do for software productivity, reliability, and simplicity what
+        electronics, transistors, large-scale integration did for computer
+        hardware. We cannot expect ever to see two-fold gains every two years.
+      </li>
+
+      <li>
         <a href="https://melconway.com/research/committees.html"
           >How do committees invent?</a
         >: The basic thesis of this article is that organizations which design
