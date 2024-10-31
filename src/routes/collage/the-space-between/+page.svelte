@@ -5,7 +5,7 @@
   import comeAway from "$lib/img/kiki-smith-come-away-from-her.jpg";
   import heartSutra from "$lib/img/heart-sutra-tōzai-yūki.jpg";
 
-  const title = "she dressed me";
+  const title = "the space between";
   const description = "Fantasying posesses her like an evil spirit.";
 </script>
 
@@ -22,18 +22,6 @@
     <figcaption>Come away from her</figcaption>
   </figure>
 
-  <p>
-    Sparkly silver chains on my ankles<br />
-    As soon as Mommy hatched, she dressed me in a birdcage<br />
-    <br />
-    My feet keep sinking into the trampoline night<br />
-    Like a white aurora the rabbit-shaped shadow dissipates<br />
-    I bounce into the
-    <a href="https://www.poetryfoundation.org/poems/160147/floor-is-not-a-floor"
-      >trampoline night</a
-    ><br />
-  </p>
-
   <aside>
     <p>
       We came round in the end to a discussion of this dream that she had
@@ -43,6 +31,40 @@
       >) which was experienced while she was awake and was a defense against
       dreaming: 'But how is she to know?' Fantasying posesses her like an evil
       spirit.
+    </p>
+  </aside>
+
+  <p>
+    I want to slay the space between sky and land<br />
+    I want to slay everyplace except where Mommy is lying<br />
+    <br />
+    I want to slay the rain falling like a black velvet curtain<br />
+    I want to slay the geraniums under the drops of moonlight<br />
+
+    Why did you let Mommy be born?<br />
+    And why do you let her die?<br />
+    <br />
+    I can’t take off my birdcage dress<br />
+    It strangles me more each day<br />
+    <br />
+    I’m entirely
+    <a href="https://www.poetryfoundation.org/poems/160147/floor-is-not-a-floor"
+      >dependent on the floor</a
+    ><br />
+    <br />
+    Trampoline<br />
+    Trampoline
+  </p>
+
+  <aside>
+    <p>
+      The key word to be <a
+        href="https://www.google.com/books/edition/Playing_and_Reality/glDHJG81NjAC?hl=en&gbpv=1&pg=PA45&printsec=frontcover"
+        >carried back into the dream</a
+      >
+      was <em>formlessness</em>, which is what the material is like before it is
+      patterned and cut and shaped and put together. In other words, in a dream
+      this would be a comment on her own personality and self-establishment.
     </p>
   </aside>
 
