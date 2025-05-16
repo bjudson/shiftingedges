@@ -2,7 +2,7 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import barkerNewYard from "$lib/img/barker-new-yard.jpg";
+  import curtisEclipse from "$lib/img/curtis-eclipse.webp";
   import werckmeisterHarmonies from "$lib/img/werckmeister-harmonies.jpg";
 
   const title = "an old, worn ring";
@@ -13,15 +13,13 @@
 
 <Section>
   <figure>
-    <a
-      href="https://www.davidzwirner.com/viewing-room/2023/utopia-editions-hayley-barker"
-    >
+    <a href="https://www.getty.edu/art/collection/object/104CY4">
       <img
-        src={barkerNewYard}
-        alt="A brightly colored painting of foliage with a path going through it. In the sky above is a gold ring."
+        src={curtisEclipse}
+        alt="An old sepia-toned print of a solar eclipse at four stages, arranged in two rows"
       />
     </a>
-    <figcaption>New Yard, Elysian Heights</figcaption>
+    <figcaption>Views of the Great Solar Eclipse, 1869</figcaption>
   </figure>
 
   <p>
