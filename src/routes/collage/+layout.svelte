@@ -10,6 +10,7 @@
     "content-warning",
     "into-the-rubble",
     "concepts-of-time",
+    "angel-of-history",
     "the-story-or-the-truth",
     "the-space-between",
     "the-absent-one",
