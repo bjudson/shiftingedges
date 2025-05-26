@@ -25,11 +25,12 @@
       <p>
         I have spent most of <a href="https://www.linkedin.com/in/ben-judson/"
           >my career</a
-        > building web applications using Django and React. I’m comfortable leading
-        large projects, designing systems, mentoring, communicating with stakeholders,
-        as well as writing Python, JavaScript/TypeScript, raw SQL, CSS, Bash scripts,
-        combing through observability tools and logs, and many other random skills
-        that keep a product humming along.
+        > building consumer web products. I’m comfortable leading large projects,
+        designing systems, mentoring, communicating with stakeholders, while writing
+        Python, JavaScript (and TypeScript), SQL, CSS, shell scripts, combing through
+        observability tools and logs, and many other random skills that keep a product
+        humming along. More recently, I have been building domain-specific computer
+        visions models.
       </p>
       <h2>Projects</h2>
       <p>
@@ -37,12 +38,25 @@
         set:
       </p>
       <p>
+        <strong>Clarus:</strong> At
+        <a href="https://thenounproject.com/">Noun Project</a>, I built several
+        features related to icon style detection. Prior to this, all icons on
+        the site had subject tags but no functional style classification. Built
+        custom AI and computer vision models that allow users to easily find
+        groups of icons in a cohesive visual style. Internally, I worked with
+        stakeholders to label icons with high-level classifications and trained
+        a convolutional neural net to identify them. In parallel, I worked with
+        an external contractor to build the PoC for feature extraction and
+        clustering, after which I refined the models and brought them to
+        production in a serverless inference endpoint using SageMaker.
+      </p>
+      <p>
         <strong>Alexandria:</strong> At
         <a href="https://literati.com/">Literati</a>, I built an internal
         service to collect and manage metadata for the entire book inventory
         (~6,000 titles). This service aggregated data from internal and external
         sources (consuming internal data from Google Pub/sub, and external data
-        primarily from Ingram's XML book API), flagged missing data and
+        primarily from Ingram's XML book data API), flagged missing data and
         anomalies, fed it to internal ML services for automated curation, and
         included a faceted search interface. It was used by about 40 internal
         stakeholders in curation, product, marketing, operations, and data
