@@ -1,61 +1,67 @@
 <script>
-	import { posts } from './data.js';
-	import PageContainer from '../PageContainer.svelte';
+  import { posts } from "./data.js";
+  import PageContainer from "../PageContainer.svelte";
 </script>
 
 <svelte:head>
-	<title>Trees of Los Angeles</title>
-	<meta name="description" content="A photographic collection of trees throughout Los Angeles" />
+  <title>Trees of Los Angeles</title>
+  <meta
+    name="description"
+    content="A photographic collection of trees throughout Los Angeles"
+  />
 </svelte:head>
 
 <PageContainer>
-	<main class="trees-grid">
-		{#each posts as post}
-			<a href="/treesoflosangeles/{post.slug}" class="tree-item">
-				<img 
-					src={post.imagePath} 
-					alt={post.title}
-					loading="lazy"
-				/>
-			</a>
-		{/each}
-	</main>
+  <section>
+    <h1>trees of los angeles</h1>
+    <main class="trees-grid">
+      {#each posts as post}
+        <a href="/treesoflosangeles/{post.slug}" class="tree-item">
+          <img src={post.imagePath} alt={post.title} loading="lazy" />
+        </a>
+      {/each}
+    </main>
+  </section>
 </PageContainer>
 
 <style>
-	.trees-grid {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 2px;
-		margin: 0;
-		padding: 0;
-		max-width: 600px;
-	}
+  h1 {
+    font-size: 1.5rem;
+  }
 
-	.tree-item {
-		display: block;
-		aspect-ratio: 1;
-		overflow: hidden;
-		position: relative;
-		background: var(--bg-color-alt);
-		transition: opacity 0.2s ease;
-	}
+  .trees-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+  }
 
-	.tree-item:hover {
-		opacity: 0.8;
-	}
+  .tree-item {
+    display: block;
+    aspect-ratio: 1;
+    overflow: hidden;
+    position: relative;
+    background: var(--bg-color-alt);
+    transition: opacity 0.2s ease;
+  }
 
-	.tree-item img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		display: block;
-	}
+  .tree-item:hover {
+    opacity: 0.8;
+  }
 
-	/* Mobile responsiveness */
-	@media (max-width: 600px) {
-		.trees-grid {
-			gap: 1px;
-		}
-	}
+  .tree-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 600px) {
+    .trees-grid {
+      gap: 1px;
+    }
+  }
 </style>
