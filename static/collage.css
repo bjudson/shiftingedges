@@ -1,50 +1,54 @@
 ul {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
 li {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 p {
-    margin: 0 0 1rem 0;
+  margin: 0 0 1rem 0;
 }
 
 a {
-    color: var(--link-color);
+  color: var(--link-color);
 }
 
-a img:hover {
-    transform: scale(102%);
-    transition: transform 0.5s ease-in;
+a img:hover,
+a picture img:hover {
+  transform: scale(102%);
+  transition: transform 0.5s ease-in;
 }
 
-a img {
-    transform: scale(100%);
-    transition: transform 0.5s ease-in;
+a img,
+a picture img {
+  transform: scale(100%);
+  transition: transform 0.5s ease-in;
 }
 
-section img {
-    max-width: 100%;
+section img,
+section picture img {
+  max-width: 100%;
+  height: auto;
 }
 
 section figure {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 section figcaption {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 section aside {
-    background: var(--bg-color-alt);
-    padding: 1rem;
-    border-radius: 3px;
-    margin-bottom: 2rem;
-    border: 1px solid var(--border-color);
+  background: var(--bg-color-alt);
+  padding: 1rem;
+  border-radius: 3px;
+  margin-bottom: 2rem;
+  border: 1px solid var(--border-color);
 }
 
 section aside p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }

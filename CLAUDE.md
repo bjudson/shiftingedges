@@ -15,25 +15,30 @@ This is a personal website (shiftingedges.com) built with SvelteKit and deployed
 ## Common Commands
 
 ### Development
+
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 
 ### Code Quality
+
 - `npm run lint` - Run ESLint and Prettier checks
 - `npm run format` - Format code with Prettier
 - `npm run check` - Run Svelte type checking
 - `npm run check:watch` - Run Svelte type checking in watch mode
 
 ### Testing
+
 - `npm run test` - Run tests with Vitest
 
 ### Content Analysis
+
 - `npm run poems:analyze` - Analyze poem paths (custom script)
 
 ## Architecture
 
 ### Key Directories
+
 - `src/routes/` - SvelteKit routes and pages
 - `src/routes/collage/` - Hypertext collage section with individual collage pages
 - `src/routes/poems/` - Poetry section with individual poem pages
@@ -44,6 +49,7 @@ This is a personal website (shiftingedges.com) built with SvelteKit and deployed
 - `static/treesoflosangeles/` - Tree photos from Instagram export
 
 ### Route Structure
+
 - `/` - Home page
 - `/links` - Links page
 - `/software` - Software page
@@ -53,12 +59,14 @@ This is a personal website (shiftingedges.com) built with SvelteKit and deployed
 - `/treesoflosangeles/` - Trees of Los Angeles photo grid with individual photo detail pages
 
 ### Component Patterns
+
 - Page components use `+page.svelte` files
 - Layout components use `+layout.svelte` files
 - Shared components are in `src/lib/` or route-specific directories
 - Navigation components (Nav.svelte, TopNav.svelte, BottomNav.svelte) for collage section
 
 ### Content Management
+
 - Poems and collages are individual Svelte components in their respective directories
 - Trees of Los Angeles photos are managed via `data.js` file with metadata for 143 images
 - Each section has its own route following SvelteKit's file-based routing
@@ -66,6 +74,7 @@ This is a personal website (shiftingedges.com) built with SvelteKit and deployed
 - Static assets like fonts and PDFs are in the `static/` directory
 
 ### Technology Stack
+
 - SvelteKit for the framework
 - TypeScript for type safety
 - Vite for build tooling
