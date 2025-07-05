@@ -2,23 +2,20 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import wavefield from "$lib/img/LinM_Wavefield_2013_09_30.4.jpg";
-  import huygheBees from "$lib/img/Pierre-Huyghe-bees.jpg";
+
+  import linM_Wavefield_2013_09_304 from "$lib/img/LinM_Wavefield_2013_09_30.4.jpg";
 
   const title = "nothing much";
   const description =
     "I’d like to retire there and do nothing, or nothing much";
 </script>
 
-<CollageMeta {title} {description} imgSrc={wavefield} />
+<CollageMeta {title} {description} imgSrc={linM_Wavefield_2013_09_304} />
 
 <Section>
   <figure>
     <a href="https://collections.stormking.org/Detail/objects/416">
-      <img
-        src={wavefield}
-        alt="Grassy hills in the shape of waves, trees in the background."
-      />
+      <enhanced:img alt="Grassy hills in the shape of waves, trees in the background." src="$lib/img/LinM_Wavefield_2013_09_30.4.jpg">
     </a>
     <figcaption>Waveforms (Storm King)</figcaption>
   </figure>
@@ -58,10 +55,7 @@
 
   <figure>
     <a href="https://www.moma.org/calendar/exhibitions/1537">
-      <img
-        src={huygheBees}
-        alt="A stone statue of a nude reclining woman; in place of a head is a large, active bees nest."
-      />
+      <enhanced:img alt="A stone statue of a nude reclining woman; in place of a head is a large, active bees nest." src="$lib/img/Pierre-Huyghe-bees.jpg">
     </a>
     <figcaption>Untitled (Liegender Frauenakt)</figcaption>
   </figure>

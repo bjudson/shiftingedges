@@ -2,19 +2,19 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import catesbyJackdaw from "$lib/img/catesby-jackdaw.jpg";
-  import catesbyStarling from "$lib/img/catesby-starling.jpg";
+
+  import catesbyjackdaw from "$lib/img/catesby-jackdaw.jpg";
 
   const title = "seabird’s cry";
   const description = "What came first, the seabird’s cry or the soul";
 </script>
 
-<CollageMeta {title} {description} imgSrc={catesbyJackdaw} />
+<CollageMeta {title} {description} imgSrc={catesbyjackdaw} />
 
 <Section>
   <figure>
     <a href="https://www.nga.gov/collection/art-object-page.53847.html">
-      <img src={catesbyJackdaw} alt="Antique print of a jackdaw" />
+      <enhanced:img alt="Antique print of a jackdaw" src="$lib/img/catesby-jackdaw.jpg">
     </a>
     <figcaption>The Purple Jack Daw</figcaption>
   </figure>
@@ -62,7 +62,7 @@
     <a
       href="https://www.rct.uk/collection/924826/the-red-wingd-starling-and-the-broad-leaved-candle-berry-myrtle"
     >
-      <img src={catesbyStarling} alt="Antique print of a starling" />
+      <enhanced:img alt="Antique print of a starling" src="$lib/img/catesby-starling.jpg">
     </a>
     <figcaption>
       The Red wing'd Starling and the Broad-leaved Candle-berry Myrtle

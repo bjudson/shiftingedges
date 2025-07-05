@@ -2,24 +2,20 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import dreamlandTheatre from "$lib/img/dreamland-theatre.webp";
-  import signsOfNeon from "$lib/img/66-signs-of-neon.jpg";
-  import projectRowHouses from "$lib/img/Project-Row-Houses-1994-Installation.jpg";
+
+  import dreamlandtheatre from "$lib/img/dreamland-theatre.webp";
 
   const title = "into the rubble";
   const description =
     "It began as an expression of the necessity for art education";
 </script>
 
-<CollageMeta {title} {description} imgSrc={signsOfNeon} />
+<CollageMeta {title} {description} imgSrc={dreamlandtheatre} />
 
 <Section>
   <figure>
     <a href="http://cinematreasures.org/theaters/68409">
-      <img
-        src={dreamlandTheatre}
-        alt="Faded black and white photograph of a brick building with the a sign reading Williams Dreamland Theatre on the front. A box office and movie posters are visible."
-      />
+      <enhanced:img alt="Faded black and white photograph of a brick building with the a sign reading Williams Dreamland Theatre on the front. A box office and movie posters are visible." src="$lib/img/dreamland-theatre.webp">
     </a>
     <figcaption>Williams Dreamland Theatre (Tulsa, OK)</figcaption>
   </figure>
@@ -42,10 +38,7 @@
 
   <figure>
     <a href="https://projectrowhouses.org/our-work/">
-      <img
-        src={projectRowHouses}
-        alt="Photograph of a small row house painted with crude but rhythmic shapes, from the first exhibition at Project Row Houses in Houston."
-      />
+      <enhanced:img alt="Photograph of a small row house painted with crude but rhythmic shapes, from the first exhibition at Project Row Houses in Houston." src="$lib/img/Project-Row-Houses-1994-Installation.jpg">
     </a>
     <figcaption>Project Row Houses</figcaption>
   </figure>
@@ -64,10 +57,7 @@
 
   <figure>
     <a href="/junk-art-66-signs-of-neon.pdf">
-      <img
-        src={signsOfNeon}
-        alt="Page from a catalog of the exhibition '66 Signs of Neon', showing 3 assemblage sculptures made from detritus of the Watts riots, and text describing the origins of the exhibit."
-      />
+      <enhanced:img alt="Page from a catalog of the exhibition '66 Signs of Neon', showing 3 assemblage sculptures made from detritus of the Watts riots, and text describing the origins of the exhibit." src="$lib/img/66-signs-of-neon.jpg">
     </a>
     <figcaption>66 Signs of Neon catalog</figcaption>
   </figure>

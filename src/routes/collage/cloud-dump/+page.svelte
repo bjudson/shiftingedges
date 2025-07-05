@@ -2,23 +2,20 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import girlOnTheBeach from "$lib/img/girl-on-the-beach.jpg";
-  import figureInALandscape from "$lib/img/figure-in-a-landscape-brigman.jpg";
+
+  import girlonthebeach from "$lib/img/girl-on-the-beach.jpg";
 
   const title = "cloud-dump";
   const description = "Was that why it rained so much?";
 </script>
 
-<CollageMeta {title} {description} imgSrc={girlOnTheBeach} />
+<CollageMeta {title} {description} imgSrc={girlonthebeach} />
 
 <Section>
   <figure>
     <a href="https://www.youtube.com/watch?v=8xyS8UvkzKE"
-      ><img
-        src={girlOnTheBeach}
-        alt="Still from a movie:
-			Adolsescent girl wearing bikini bottom walking alone on a rocky beach, with a few desert plants in the background."
-      /></a
+      ><enhanced:img alt="Still from a movie:
+			Adolsescent girl wearing bikini bottom walking alone on a rocky beach, with a few desert plants in the background." src="$lib/img/girl-on-the-beach.jpg"></a
     >
     <figcaption>Il Deserto Rosso</figcaption>
   </figure>
@@ -61,12 +58,9 @@
 
   <figure>
     <a href="https://www.getty.edu/art/collection/object/107R6R">
-      <img
-        src={figureInALandscape}
-        alt="Sepia-toned landscape photograph
+      <enhanced:img alt="Sepia-toned landscape photograph
 			looking down over a still lake. Trees in the foreground, a rock outcrop over the water
-			with a single nude female figure standing on the edge, looking out over the water."
-      />
+			with a single nude female figure standing on the edge, looking out over the water." src="$lib/img/figure-in-a-landscape-brigman.jpg">
     </a>
   </figure>
 </Section>

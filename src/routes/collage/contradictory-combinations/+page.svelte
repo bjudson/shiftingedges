@@ -2,22 +2,19 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import mapProjectionSnail from "$lib/img/denes-map-projection-snail.jpeg";
-  import brainticketCelestialOcean from "$lib/img/brainticket-celestial-ocean.jpg";
+
+  import denesmapprojectionsnail from "$lib/img/denes-map-projection-snail.jpeg";
 
   const title = "contradictory combinations";
   const description = "See how many contradictory combinations you can find";
 </script>
 
-<CollageMeta {title} {description} imgSrc={mapProjectionSnail} />
+<CollageMeta {title} {description} imgSrc={denesmapprojectionsnail} />
 
 <Section>
   <figure>
     <a href="https://www.moma.org/collection/works/60464">
-      <img
-        src={mapProjectionSnail}
-        alt="Map of the world projected onto a three dimensional grid in the form of a snail shell (spiraling cylinder)"
-      />
+      <enhanced:img alt="Map of the world projected onto a three dimensional grid in the form of a snail shell (spiraling cylinder)" src="$lib/img/denes-map-projection-snail.jpeg">
     </a>
   </figure>
 
@@ -53,10 +50,7 @@
 
   <figure>
     <a href="https://www.youtube.com/watch?v=A__yAxxgZYo">
-      <img
-        src={brainticketCelestialOcean}
-        alt="Poster titled 'Celestial Ocean - Brainticket' with various line drawings, including ancient Egyptian imagery, scientific wave diagrams, etc"
-      />
+      <enhanced:img alt="Poster titled 'Celestial Ocean - Brainticket' with various line drawings, including ancient Egyptian imagery, scientific wave diagrams, etc" src="$lib/img/brainticket-celestial-ocean.jpg">
     </a>
   </figure>
 </Section>

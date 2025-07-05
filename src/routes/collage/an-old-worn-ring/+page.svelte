@@ -2,22 +2,19 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import curtisEclipse from "$lib/img/curtis-eclipse.webp";
-  import werckmeisterHarmonies from "$lib/img/werckmeister-harmonies.jpg";
+
+  import curtiseclipse from "$lib/img/curtis-eclipse.webp";
 
   const title = "an old, worn ring";
   const description = "The hole where the sun belongs is very small";
 </script>
 
-<CollageMeta {title} {description} imgSrc={werckmeisterHarmonies} />
+<CollageMeta {title} {description} imgSrc={curtiseclipse} />
 
 <Section>
   <figure>
     <a href="https://www.getty.edu/art/collection/object/104CY4">
-      <img
-        src={curtisEclipse}
-        alt="An old sepia-toned print of a solar eclipse at four stages, arranged in two rows"
-      />
+      <enhanced:img alt="An old sepia-toned print of a solar eclipse at four stages, arranged in two rows" src="$lib/img/curtis-eclipse.webp">
     </a>
     <figcaption>Views of the Great Solar Eclipse, 1869</figcaption>
   </figure>
@@ -48,10 +45,7 @@
 
   <figure>
     <a href="https://www.youtube.com/watch?v=_d5X2t_s9g8">
-      <img
-        src={werckmeisterHarmonies}
-        alt="A black and white photograph of men standing in a bar with no tables or chairs visible."
-      />
+      <enhanced:img alt="A black and white photograph of men standing in a bar with no tables or chairs visible." src="$lib/img/werckmeister-harmonies.jpg">
     </a>
     <figcaption>Werckmeister Harmonies</figcaption>
   </figure>

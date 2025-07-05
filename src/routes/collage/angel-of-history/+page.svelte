@@ -2,24 +2,21 @@
     import CollageMeta from "../CollageMeta.svelte";
     import Section from "../Section.svelte";
 
-    import angelusNovus from "$lib/img/klee-angelus-novus.webp";
-    import blakeAngel from "$lib/img/blake-albions-angel.webp";
+  
+  import kleeangelusnovus from "$lib/img/klee-angelus-novus.webp";
 
-    const title = "angel of history";
+  const title = "angel of history";
     const description = "the pile of debris before him grows skyward";
 </script>
 
-<CollageMeta {title} {description} imgSrc={angelusNovus} />
+<CollageMeta {title} {description} imgSrc={kleeangelusnovus} />
 
 <Section>
     <figure>
         <a
             href="https://www.commonwealmagazine.org/klee-angelus-novus-benjamin-bourneuf-Quaytman"
         >
-            <img
-                src={angelusNovus}
-                alt="A stylized figure with a simplified facial expression, featuring large eyes, curly hair or headdress, and raised hands."
-            />
+            <enhanced:img alt="A stylized figure with a simplified facial expression, featuring large eyes, curly hair or headdress, and raised hands." src="$lib/img/klee-angelus-novus.webp">
         </a>
         <figcaption>Angelus Novus</figcaption>
     </figure>
@@ -64,10 +61,7 @@
         <a
             href="https://www.blakearchive.org/copy/europe.k?descId=europe.k.illbk.14"
         >
-            <img
-                src={blakeAngel}
-                alt="A watercolor religious scene with a pope or bishop-like figure in red robes and a tall headdress seated at the top, with bat-like wings behind him. Below, two white-robed angels with large wings hold measuring instruments over a yellow cloud, while handwritten text appears at the bottom on a scroll-like element."
-            />
+            <enhanced:img alt="A watercolor religious scene with a pope or bishop-like figure in red robes and a tall headdress seated at the top, with bat-like wings behind him. Below, two white-robed angels with large wings hold measuring instruments over a yellow cloud, while handwritten text appears at the bottom on a scroll-like element." src="$lib/img/blake-albions-angel.webp">
         </a>
         <figcaption>Albion’s Angel rose upon the Stone of Night</figcaption>
     </figure>

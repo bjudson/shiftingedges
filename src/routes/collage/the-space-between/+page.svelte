@@ -2,22 +2,19 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import comeAway from "$lib/img/kiki-smith-come-away-from-her.jpg";
-  import heartSutra from "$lib/img/heart-sutra-tōzai-yūki.jpg";
+
+  import kikismithcomeawayfromher from "$lib/img/kiki-smith-come-away-from-her.jpg";
 
   const title = "the space between";
   const description = "Fantasying posesses her like an evil spirit.";
 </script>
 
-<CollageMeta {title} {description} imgSrc={comeAway} />
+<CollageMeta {title} {description} imgSrc={kikismithcomeawayfromher} />
 
 <Section>
   <figure>
     <a href="https://www.moma.org/collection/works/89069">
-      <img
-        src={comeAway}
-        alt="An etching with aquatint of a girl in a dress sitting down on a rock while a clump of birds fly away."
-      />
+      <enhanced:img alt="An etching with aquatint of a girl in a dress sitting down on a rock while a clump of birds fly away." src="$lib/img/kiki-smith-come-away-from-her.jpg">
     </a>
     <figcaption>Come away from her</figcaption>
   </figure>
@@ -72,10 +69,7 @@
     <a
       href="https://publicdomainreview.org/collection/buddhist-texts-for-the-illiterate/"
     >
-      <img
-        src={heartSutra}
-        alt="An open book showing a grid of small pictographic images."
-      />
+      <enhanced:img alt="An open book showing a grid of small pictographic images." src="$lib/img/heart-sutra-tōzai-yūki.jpg">
     </a>
     <figcaption>Heart Sutra</figcaption>
   </figure>

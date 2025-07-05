@@ -2,25 +2,21 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import ceramics from "$lib/img/Hamana-Otani-Ueda-ceramics.jpeg";
-  import yojimboRiceBowl from "$lib/img/Yojimbo-rice-bowl.webp";
-  import oldFireplace from "$lib/img/old-fireplace.jpg";
+
+  import hamanaOtaniUedaceramics from "$lib/img/Hamana-Otani-Ueda-ceramics.jpeg";
 
   const title = "the power of fire";
   const description = "Fire leaves its soul where it steps";
 </script>
 
-<CollageMeta {title} {description} imgSrc={ceramics} />
+<CollageMeta {title} {description} imgSrc={hamanaOtaniUedaceramics} />
 
 <Section>
   <figure>
     <a
       href="https://www.blumandpoe.com/exhibitions/kazunori_hamana_yuji_ueda_otani_workshop"
     >
-      <img
-        src={ceramics}
-        alt="Roughly formed ceramic objects on a wooden surface. Spheres, a broken cup, and in the center a small unglazed piece with minimal markings of a face cut into it."
-      />
+      <enhanced:img alt="Roughly formed ceramic objects on a wooden surface. Spheres, a broken cup, and in the center a small unglazed piece with minimal markings of a face cut into it." src="$lib/img/Hamana-Otani-Ueda-ceramics.jpeg">
     </a>
   </figure>
 
@@ -57,10 +53,7 @@
 
   <figure>
     <a href="https://www.youtube.com/watch?v=8ncG5Ohb4Eo">
-      <img
-        src={yojimboRiceBowl}
-        alt="Black and white still from Akira Kurosawa samurai film. Toshiro Mifune eats rice out of a ceramic bowl with brush strokes; he is inside of a wooden shack, with an older man sitting to his right, scowling."
-      />
+      <enhanced:img alt="Black and white still from Akira Kurosawa samurai film. Toshiro Mifune eats rice out of a ceramic bowl with brush strokes; he is inside of a wooden shack, with an older man sitting to his right, scowling." src="$lib/img/Yojimbo-rice-bowl.webp">
     </a>
   </figure>
 
@@ -83,10 +76,7 @@
 
   <figure>
     <a href="https://www.instagram.com/p/CnfC5OXu4fa/"
-      ><img
-        src={oldFireplace}
-        alt="Photograph of the inside of an old house with no furniture. In the center is a fireplace, with aparent smoke stains above it. Plaster is falling down around it onto the wooden floor."
-      /></a
+      ><enhanced:img alt="Photograph of the inside of an old house with no furniture. In the center is a fireplace, with aparent smoke stains above it. Plaster is falling down around it onto the wooden floor." src="$lib/img/old-fireplace.jpg"></a
     >
   </figure>
 </Section>

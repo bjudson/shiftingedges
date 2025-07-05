@@ -2,14 +2,15 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import bourgeoisSpiderCell from "$lib/img/bourgeois-spider-cell.jpg";
+
+  import bourgeoisspidercell from "$lib/img/bourgeois-spider-cell.jpg";
 
   const title = "home and trap";
   const description =
     "Her mom said spiders carry miles of web in their bodies, miles of story";
 </script>
 
-<CollageMeta {title} {description} imgSrc={bourgeoisSpiderCell} />
+<CollageMeta {title} {description} imgSrc={bourgeoisspidercell} />
 
 <Section>
   <p>
@@ -26,10 +27,7 @@
     <a
       href="https://www.artnews.com/art-news/artists/louise-bourgeois-spider-sculptures-history-1202687603/"
     >
-      <img
-        src={bourgeoisSpiderCell}
-        alt="Large cylindrical cage with some tapestries on the walls, and wavy spider legs coming out of the top down to the floor."
-      />
+      <enhanced:img alt="Large cylindrical cage with some tapestries on the walls, and wavy spider legs coming out of the top down to the floor." src="$lib/img/bourgeois-spider-cell.jpg">
     </a>
   </figure>
 

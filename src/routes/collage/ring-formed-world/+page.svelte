@@ -2,24 +2,21 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import loieFuller from "$lib/img/loie-fuller.jpg";
-  import marionette from "$lib/img/taeuber-arp-marionette.jpg";
+
+  import loiefuller from "$lib/img/loie-fuller.jpg";
 
   const title = "ring-formed world";
   const description = "Aroused by emptiness, you push a hand inside my jeans.";
 </script>
 
-<CollageMeta {title} {description} imgSrc={loieFuller} />
+<CollageMeta {title} {description} imgSrc={loiefuller} />
 
 <Section>
   <figure>
     <a
       href="https://publicdomainreview.org/essay/loie-fuller-and-the-serpentine/"
     >
-      <img
-        src={loieFuller}
-        alt="A woman in a long, flowing dress covered with painted snakes. She is holding a wooden snake in one hand, and lookint into its face. She has long, curled hare, and there are pillows spread out on the floor around her."
-      />
+      <enhanced:img alt="A woman in a long, flowing dress covered with painted snakes. She is holding a wooden snake in one hand, and lookint into its face. She has long, curled hare, and there are pillows spread out on the floor around her." src="$lib/img/loie-fuller.jpg">
     </a>
     <figcaption>Loie Fuller (Serpentine Dance)</figcaption>
   </figure>
@@ -67,10 +64,7 @@
 
   <figure>
     <a href="https://www.moma.org/audio/playlist/318/4117">
-      <img
-        src={marionette}
-        alt="A marionette of a king, painted all gold, except for his white face. The crown is a strange organic shape, not resembling a real crown, and his arms and legs are formed of cones."
-      />
+      <enhanced:img alt="A marionette of a king, painted all gold, except for his white face. The crown is a strange organic shape, not resembling a real crown, and his arms and legs are formed of cones." src="$lib/img/taeuber-arp-marionette.jpg">
     </a>
     <figcaption>Sophie Taeuber-Arp. Deramo, The King</figcaption>
   </figure>

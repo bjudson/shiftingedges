@@ -2,24 +2,21 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import theConversation from "$lib/img/the-conversation.jpg";
-  import tinguelyHomage from "$lib/img/tinguely-homage.jpg";
+
+  import theconversation from "$lib/img/the-conversation.jpg";
 
   const title = "systems disintegrate";
   const description = "The world doesn’t need a center";
 </script>
 
-<CollageMeta {title} {description} imgSrc={theConversation} />
+<CollageMeta {title} {description} imgSrc={theconversation} />
 
 <Section>
   <figure>
     <a
       href="https://scrapsfromtheloft.com/movies/the-making-of-the-conversation-an-interview-with-francis-ford-coppola/"
     >
-      <img
-        src={theConversation}
-        alt="A man playing saxophone in a room that has been ripped apart"
-      />
+      <enhanced:img alt="A man playing saxophone in a room that has been ripped apart" src="$lib/img/the-conversation.jpg">
     </a>
     <figcaption>The Conversation</figcaption>
   </figure>
@@ -69,10 +66,7 @@
 
   <figure>
     <a href="https://www.moma.org/collection/works/81174">
-      <img
-        src={tinguelyHomage}
-        alt="A strange machine or sculpture assembled haphazardly"
-      />
+      <enhanced:img alt="A strange machine or sculpture assembled haphazardly" src="$lib/img/tinguely-homage.jpg">
     </a>
     <figcaption>Fragment from Homage to New York</figcaption>
   </figure>

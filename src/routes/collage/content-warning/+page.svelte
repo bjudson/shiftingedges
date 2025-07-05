@@ -2,24 +2,21 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import goberLynch from "$lib/img/gober-lynch.webp";
-  import warholRaceRiot from "$lib/img/warhol-race-riot.webp";
+
+  import goberlynch from "$lib/img/gober-lynch.webp";
 
   const title = "content warning";
   const description = "O Solomon don’t leave me here/Cotton balls to choke me";
 </script>
 
-<CollageMeta {title} {description} imgSrc={goberLynch} />
+<CollageMeta {title} {description} imgSrc={goberlynch} />
 
 <Section>
   <figure>
     <a
       href="https://contemporaryartreview.la/non-fiction-at-the-underground-museum/"
     >
-      <img
-        src={goberLynch}
-        alt="Photograph by Marion Palfi titled 'Wife of a Lynching Victim' hangs on top of wall paper by Robert Gober with drawing of a lynching juxtaposed with drawing of a sleeping white man."
-      />
+      <enhanced:img alt="Photograph by Marion Palfi titled 'Wife of a Lynching Victim' hangs on top of wall paper by Robert Gober with drawing of a lynching juxtaposed with drawing of a sleeping white man." src="$lib/img/gober-lynch.webp">
     </a>
   </figure>
 
@@ -56,10 +53,7 @@
     <a
       href="https://www.museum-brandhorst.de/en/essays/sinister-pop-guersoy-dogtas/"
     >
-      <img
-        src={warholRaceRiot}
-        alt="Andy Warhol diptych 'Mustard Race Riot'; left half consists of repeated images of black protesters being attacked by police dogs, right half is blank. The entire piece has mustard yellow background color."
-      />
+      <enhanced:img alt="Andy Warhol diptych 'Mustard Race Riot'; left half consists of repeated images of black protesters being attacked by police dogs, right half is blank. The entire piece has mustard yellow background color." src="$lib/img/warhol-race-riot.webp">
     </a>
   </figure>
 </Section>

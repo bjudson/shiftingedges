@@ -2,21 +2,21 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import bettyBlue from "$lib/img/betty-blue.jpg";
-  import peaceLikeARiver from "$lib/img/peace-like-a-river.jpg";
+
+  import bettyblue from "$lib/img/betty-blue.jpg";
 
   const title = "peace like a river";
   const description =
     "My whole life has been an effort to tear myself away from male desire";
 </script>
 
-<CollageMeta {title} {description} imgSrc={bettyBlue} />
+<CollageMeta {title} {description} imgSrc={bettyblue} />
 
 <Section>
   <figure>
     <a href="https://www.youtube.com/watch?v=74XLgWZ79VI">
-      <img
-        src={bettyBlue}
+      <enhanced:img
+        src="$lib/img/betty-blue.jpg"
         alt="A woman, clothed, floating in a river looking up."
       />
     </a>
@@ -35,8 +35,8 @@
 
   <figure>
     <a href="https://www.youtube.com/watch?v=LpgLuPmF66g">
-      <img
-        src={peaceLikeARiver}
+      <enhanced:img
+        src="$lib/img/peace-like-a-river.jpg"
         alt="A sepia-toned photograph of a waterfall."
       />
     </a>

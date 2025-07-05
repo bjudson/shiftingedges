@@ -2,22 +2,19 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import chineseBookie from "$lib/img/killing-of-chinese-bookie.jpg";
-  import chocolateGrinder from "$lib/img/duchamp-chocolate-grinder.jpeg";
+
+  import killingofchinesebookie from "$lib/img/killing-of-chinese-bookie.jpg";
 
   const title = "scenes of learning";
   const description = "Aroused by emptiness, you push a hand inside my jeans.";
 </script>
 
-<CollageMeta {title} {description} imgSrc={chineseBookie} />
+<CollageMeta {title} {description} imgSrc={killingofchinesebookie} />
 
 <Section>
   <figure>
     <a href="https://youtu.be/RHFLJm7VXOw">
-      <img
-        src={chineseBookie}
-        alt="A still from a movie in which a woman gives a seductive look toward the camera. Her arms are held up above her head, and we can see the blurry back of a man's head in front of her, looking at her."
-      />
+      <enhanced:img alt="A still from a movie in which a woman gives a seductive look toward the camera. Her arms are held up above her head, and we can see the blurry back of a man's head in front of her, looking at her." src="$lib/img/killing-of-chinese-bookie.jpg">
     </a>
     <figcaption>The Killing of a Chinese Bookie</figcaption>
   </figure>
@@ -47,11 +44,8 @@
 
   <figure>
     <a href="https://whitney.org/collection/works/7874">
-      <img
-        src={chocolateGrinder}
-        style="border: 1px solid var(--fg-color)"
-        alt="Etching of an old-fashioned chocolate grinder (black and gray on white paper)"
-      />
+      <enhanced:img style="border: 1px solid var(--fg-color)"
+        alt="Etching of an old-fashioned chocolate grinder (black and gray on white paper)" src="$lib/img/duchamp-chocolate-grinder.jpeg">
     </a>
     <figcaption>The Chocolate Grinder</figcaption>
   </figure>

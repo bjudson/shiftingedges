@@ -2,22 +2,19 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import theBrood from "$lib/img/the-brood.jpg";
-  import filmStill from "$lib/img/cindy-sherman-film-still.jpg";
+
+  import thebrood from "$lib/img/the-brood.jpg";
 
   const title = "the absent one";
   const description = "then strange, dark things take the place";
 </script>
 
-<CollageMeta {title} {description} imgSrc={theBrood} />
+<CollageMeta {title} {description} imgSrc={thebrood} />
 
 <Section>
   <figure>
     <a href="https://www.youtube.com/watch?v=ONF_JWWKFsY">
-      <img
-        src={theBrood}
-        alt="Three children walking hand in hand down the side of a street in the snow. A truck is driving by."
-      />
+      <enhanced:img alt="Three children walking hand in hand down the side of a street in the snow. A truck is driving by." src="$lib/img/the-brood.jpg">
     </a>
     <figcaption>those things, those creatures</figcaption>
   </figure>
@@ -59,10 +56,7 @@
 
   <figure>
     <a href="https://www.moma.org/collection/works/56715">
-      <img
-        src={filmStill}
-        alt="A black and white photograph of a woman lying on a bed with black sheets, wearing a white shirt, with bear legs are visible. She stares longingly into space."
-      />
+      <enhanced:img alt="A black and white photograph of a woman lying on a bed with black sheets, wearing a white shirt, with bear legs are visible. She stares longingly into space." src="$lib/img/cindy-sherman-film-still.jpg">
     </a>
     <figcaption>Untitle Film Still #34</figcaption>
   </figure>

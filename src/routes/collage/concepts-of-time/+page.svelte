@@ -2,24 +2,21 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import hayaosMachine from "$lib/img/hayaos-machine.jpg";
-  import theClock from "$lib/img/the-clock.jpg";
+
+  import hayaosmachine from "$lib/img/hayaos-machine.jpg";
 
   const title = "concepts of time";
   const description =
     "I think of a world where each memory could create its own legend.";
 </script>
 
-<CollageMeta {title} {description} imgSrc={hayaosMachine} />
+<CollageMeta {title} {description} imgSrc={hayaosmachine} />
 
 <Section>
   <figure>
     <a href="https://archive.org/details/ChrisMarkerSansSoleil1/"
-      ><img
-        src={hayaosMachine}
-        alt="Analog electronic equipment 
-			of some kind with words 'overlay gates' and 'invert' printed above gride of holes, a few filled with pegs."
-      /></a
+      ><enhanced:img alt="Analog electronic equipment 
+			of some kind with words 'overlay gates' and 'invert' printed above gride of holes, a few filled with pegs." src="$lib/img/hayaos-machine.jpg"></a
     >
     <figcaption>Sans Soleil</figcaption>
   </figure>
@@ -46,10 +43,7 @@
   </p>
   <figure>
     <a href="https://youtu.be/0gSwtr3E4Fo?t=263"
-      ><img
-        src={theClock}
-        alt="A man in a suit looking at himself in a mirror that has gold hands of a clock over it."
-      /></a
+      ><enhanced:img alt="A man in a suit looking at himself in a mirror that has gold hands of a clock over it." src="$lib/img/the-clock.jpg"></a
     >
     <figcaption>The Clock</figcaption>
   </figure>

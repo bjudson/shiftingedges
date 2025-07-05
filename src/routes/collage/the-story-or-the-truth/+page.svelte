@@ -2,23 +2,20 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import bourgeois from "$lib/img/bourgeoid-a-linfini.jpg";
-  import richterSailors from "$lib/img/richter-matrosen.jpg";
+
+  import bourgeoidalinfini from "$lib/img/bourgeoid-a-linfini.jpg";
 
   const title = "the story or the truth";
   const description =
     "It was his story and lately I have come to hate stories.";
 </script>
 
-<CollageMeta {title} {description} imgSrc={bourgeois} />
+<CollageMeta {title} {description} imgSrc={bourgeoidalinfini} />
 
 <Section>
   <figure>
     <a href="https://www.moma.org/collection/works/139280"
-      ><img
-        src={bourgeois}
-        alt="Etching with watercolor and gouache. Two red human figures painted in simple, blurry lines inside round light red forms connected by two tubes, which also connect to gray twisting tubes."
-      /></a
+      ><enhanced:img alt="Etching with watercolor and gouache. Two red human figures painted in simple, blurry lines inside round light red forms connected by two tubes, which also connect to gray twisting tubes." src="$lib/img/bourgeoid-a-linfini.jpg"></a
     >
     <figcaption>À L’Infini (1)</figcaption>
   </figure>
@@ -66,10 +63,7 @@
   <figure>
     <a
       href="https://gerhard-richter.com/en/art/paintings/photo-paintings/everyday-life-18/sailors-5764"
-      ><img
-        src={richterSailors}
-        alt="Blurry grayscale painting of a group of sailors."
-      /></a
+      ><enhanced:img alt="Blurry grayscale painting of a group of sailors." src="$lib/img/richter-matrosen.jpg"></a
     >
     <figcaption>Matrosen (Sailors)</figcaption>
   </figure>

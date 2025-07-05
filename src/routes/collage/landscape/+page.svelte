@@ -13,7 +13,7 @@
 
 <Section>
   <figure>
-    <img src={landscapeGreenlaw} alt="Photograph of poem (text below)" />
+    <enhanced:img alt="Photograph of poem (text below)" src="$lib/img/landscape-greenlaw.jpg">
   </figure>
 
   <div>

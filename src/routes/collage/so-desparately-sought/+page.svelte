@@ -2,24 +2,20 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import nicoMirror from "$lib/img/nico-mirror.jpg";
-  import goldinAmanda from "$lib/img/goldin-amanda-in-the-mirror.jpg";
-  import pistoletto from "$lib/img/pistoletto-mirror.jpg";
+
+  import nicomirror from "$lib/img/nico-mirror.jpg";
 
   const title = "so desperately sought";
   const description =
     "It is for this reason that love is so desperately sought and so cunningly avoided";
 </script>
 
-<CollageMeta {title} {description} imgSrc={nicoMirror} />
+<CollageMeta {title} {description} imgSrc={nicomirror} />
 
 <Section>
   <figure>
     <a href="https://youtu.be/ZudHYTya-dQ">
-      <img
-        src={nicoMirror}
-        alt="Grainy, black and white photograph of a woman looking into a small mirror."
-      />
+      <enhanced:img alt="Grainy, black and white photograph of a woman looking into a small mirror." src="$lib/img/nico-mirror.jpg">
     </a>
     <figcaption>I’ll Be Your Mirror</figcaption>
   </figure>
@@ -71,10 +67,7 @@
     <a
       href="https://www.anothermag.com/art-photography/gallery/717/nan-goldin-berlin/2"
     >
-      <img
-        src={goldinAmanda}
-        alt="A young woman looking into a bathroom mirror holding a compact in her hand."
-      />
+      <enhanced:img alt="A young woman looking into a bathroom mirror holding a compact in her hand." src="$lib/img/goldin-amanda-in-the-mirror.jpg">
     </a>
     <figcaption>Amanda in the Mirror</figcaption>
   </figure>
@@ -95,10 +88,7 @@
     <a
       href="http://openfileblog.blogspot.com/2011/06/michelangelo-pistoletto-seventeen-one.html"
     >
-      <img
-        src={pistoletto}
-        alt="Older man wearing black clothes and a white hat, smashing a large mirror with a large mallet. In the mirror, a large group of people taking photographs can be seen behind him."
-      />
+      <enhanced:img alt="Older man wearing black clothes and a white hat, smashing a large mirror with a large mallet. In the mirror, a large group of people taking photographs can be seen behind him." src="$lib/img/pistoletto-mirror.jpg">
     </a>
     <figcaption>Seventeen One Less</figcaption>
   </figure>

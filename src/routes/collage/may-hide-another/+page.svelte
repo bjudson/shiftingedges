@@ -2,25 +2,22 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import noDrugsAllowed from "$lib/img/no-drugs-allowed.jpg";
-  import smithsonNonsite from "$lib/img/smithson-nonsite.jpg";
+
+  import nodrugsallowed from "$lib/img/no-drugs-allowed.jpg";
 
   const title = "may hide another";
   const description =
     "One evening may hide another, one shadow, a nest of shadows.";
 </script>
 
-<CollageMeta {title} {description} imgSrc={noDrugsAllowed} />
+<CollageMeta {title} {description} imgSrc={nodrugsallowed} />
 
 <Section>
   <figure>
     <a href="https://www.instagram.com/p/BDZXfF_IODx/">
-      <img
-        src={noDrugsAllowed}
-        alt="Photograph take inside a bar. On the wall a dry erase board with a drink menu 
+      <enhanced:img alt="Photograph take inside a bar. On the wall a dry erase board with a drink menu 
         offers beer, wine, shots, etc. Through the door, a cinder block wall painted blue is visible, with the hand-painted 
-        words NO DRUGS ALLOWED."
-      />
+        words NO DRUGS ALLOWED." src="$lib/img/no-drugs-allowed.jpg">
     </a>
   </figure>
 
@@ -56,13 +53,10 @@
     <a
       href="https://holtsmithsonfoundation.org/robert-smithson-nonsite-franklin-new-jersey-1968"
     >
-      <img
-        src={smithsonNonsite}
-        alt="Bin-like structures in which artist Robert Smithson deposited rocks, sand, broken concrete, 
+      <enhanced:img alt="Bin-like structures in which artist Robert Smithson deposited rocks, sand, broken concrete, 
             and other elements he collected  at various sites in New Jersey. Accompanying these sculptures, Smithson hung on gallery 
             walls photographs he’d snapped at the same Garden State locations, as well as fragments of maps that could lead other people 
-            to these places"
-      />
+            to these places" src="$lib/img/smithson-nonsite.jpg">
     </a>
     <figcaption>A Nonsite (Franklin, New Jersey)</figcaption>
   </figure>

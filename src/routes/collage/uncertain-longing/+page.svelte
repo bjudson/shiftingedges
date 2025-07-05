@@ -2,22 +2,19 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import asawaFlower from "$lib/img/flower-xi-asawa.jpg";
-  import dickinsonHerbarium from "$lib/img/herbarium-dickinson.jpg";
+
+  import flowerxiasawa from "$lib/img/flower-xi-asawa.jpg";
 
   const title = "uncertain longing";
   const description = "Wet as one who weeps, you lean against the dawn";
 </script>
 
-<CollageMeta {title} {description} imgSrc={asawaFlower} />
+<CollageMeta {title} {description} imgSrc={flowerxiasawa} />
 
 <Section>
   <figure>
     <a href="https://www.moma.org/collection/works/77374">
-      <img
-        src={asawaFlower}
-        alt="Print of a flower, dark brown ink on green paper"
-      />
+      <enhanced:img alt="Print of a flower, dark brown ink on green paper" src="$lib/img/flower-xi-asawa.jpg">
     </a>
     <figcaption>Flower XI</figcaption>
   </figure>
@@ -61,10 +58,7 @@
 
   <figure>
     <a href="https://iiif.lib.harvard.edu/manifests/view/drs:4184689$1i">
-      <img
-        src={dickinsonHerbarium}
-        alt="Dried flowers pressed into the pages of a book with handwritten labels on them"
-      />
+      <enhanced:img alt="Dried flowers pressed into the pages of a book with handwritten labels on them" src="$lib/img/herbarium-dickinson.jpg">
     </a>
     <figcaption>Herbarium (ca 1839-1846)</figcaption>
   </figure>

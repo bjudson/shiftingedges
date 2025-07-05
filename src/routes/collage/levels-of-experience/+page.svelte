@@ -2,25 +2,22 @@
   import CollageMeta from "../CollageMeta.svelte";
   import Section from "../Section.svelte";
 
-  import redstoneGameOfLife from "$lib/img/redstone-game-of-life.jpg";
-  import paprikaDreams from "$lib/img/paprika-dreams.jpg";
+
+  import redstonegameoflife from "$lib/img/redstone-game-of-life.jpg";
 
   const title = "levels of experience";
   const description =
     "This smooth reality is only experienced by conscious microcosms";
 </script>
 
-<CollageMeta {title} {description} imgSrc={redstoneGameOfLife} />
+<CollageMeta {title} {description} imgSrc={redstonegameoflife} />
 
 <Section>
   <figure>
     <a href="https://www.youtube.com/watch?v=jaoSzCfa9OM">
-      <img
-        src={redstoneGameOfLife}
-        alt="Screenshot of the game Minecraft, in which a player has built a redstone computer that runs Conway's Game of 
+      <enhanced:img alt="Screenshot of the game Minecraft, in which a player has built a redstone computer that runs Conway's Game of 
       Life simulation. The simulation is displayed on a large screen in the game, with a grid of cells that are either 
-      alive or dead."
-      />
+      alive or dead." src="$lib/img/redstone-game-of-life.jpg">
     </a>
   </figure>
 
@@ -65,10 +62,7 @@
 
   <figure>
     <a href="https://youtu.be/HNWiPM2WWHY">
-      <img
-        src={paprikaDreams}
-        alt="A girl sitting at a table with her hand in the air, drawn in the style of manga. The caption reads 'Don't you think dreams and the internet are similar?'"
-      />
+      <enhanced:img alt="A girl sitting at a table with her hand in the air, drawn in the style of manga. The caption reads 'Don't you think dreams and the internet are similar?'" src="$lib/img/paprika-dreams.jpg">
     </a>
   </figure>
 </Section>
