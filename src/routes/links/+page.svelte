@@ -18,6 +18,12 @@
 
     <ul>
       <li>
+        <a href="https://monoskop.org/">Monoskop</a>: Monoskop is an 
+        independent web-based educational resource and research platform 
+        for arts, culture and humanities founded in 2004.
+      </li>
+
+      <li>
         <a href="https://citiesandmemory.com">Cities &amp; Memory</a>: Cities
         and Memory is one of the world’s largest sound projects, with more than
         1,800 artists foming a global community with the aim of remixing the
