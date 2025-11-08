@@ -1,8 +1,12 @@
+<script>
+  import ArchivePoem from "../ArchivePoem.svelte";
+</script>
+
 <svelte:head>
   <title>Kind Valentine - David Schubert</title>
 </svelte:head>
 
-<section class="archive-content">
+<ArchivePoem>
   <article class="poem">
     <h1>Kind Valentine</h1>
 
@@ -81,43 +85,4 @@
   </article>
 
   <p class="back-link"><a href="/archive">Index</a></p>
-</section>
-
-<style>
-  h1 {
-    font-size: 24px;
-    line-height: 36px;
-    margin: 0 0 24px 0;
-  }
-
-  .poem {
-    margin-bottom: 2rem;
-  }
-
-  .poem p {
-    margin-bottom: 1.5rem;
-    line-height: 1.6;
-  }
-
-  .attribution {
-    margin-top: 2rem;
-    font-style: italic;
-  }
-
-  .attribution a {
-    text-decoration: underline;
-  }
-
-  .back-link {
-    margin-top: 3rem;
-    padding-top: 2rem;
-    border-top: 1px solid #ccc;
-  }
-
-  @media only screen and (max-width: 768px) {
-    h1 {
-      font-size: 18px;
-      line-height: 24px;
-    }
-  }
-</style>
+</ArchivePoem>
