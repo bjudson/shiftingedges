@@ -21,6 +21,7 @@
     "an-old-worn-ring",
     "power-of-fire",
     "cloud-dump",
+    "the-paper-wall",
     "scenes-of-learning",
     "peace-like-a-river",
     "levels-of-experience",
